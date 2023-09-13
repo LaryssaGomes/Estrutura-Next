@@ -1,0 +1,32 @@
+# Configuração para o EditorConfig
+
+# Indentação padrão
+[*]
+indent_style = space
+indent_size = 2
+
+# Exceções para pastas e arquivos específicos
+[package.json]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = true
+
+# Aumenta o tamanho da tabulação para arquivos JavaScript e TypeScript
+[**/*.js]
+indent_size = 4
+
+[**/*.ts]
+indent_size = 4
+
+# Não adicione espaços em branco no final das linhas
+[*]
+trim_trailing_whitespace = true
+
+# Use quebras de linha Unix (\n)
+[*]
+end_of_line = lf
+
+# Usar UTF-8 encoding
+[*]
+charset = utf-8
